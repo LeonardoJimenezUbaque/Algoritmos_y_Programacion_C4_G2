@@ -5,14 +5,13 @@ galones, pero el precio de la gasolina está fijado en litros. Se requiere que c
 cobrarle a un cliente, considerando que: (a) cada galón tiene 3.785 litros; (b) el precio del litro es de 50.000 COP
 
 Entradas
-Precio_Final_Pagado --> Float --> P_F
-Precio_Venta_Publico --> Float --> P_V_P
+Galones --> Float --> G
 
 Salidas
-Porcentaje_Descuento --> Float --> P_D
+Precio_Galones --> Float --> P
 """
 # Instrucciones al usuario
-print("Para conocer el porcentaje de descuento, escriba lo siguiente: ")
+print("Para conocer el precio que va a ser cobrado, escriba lo siguiente: ")
 # Entradas
 G = float(input("Digite número de galones: "))
 # Caja negra
